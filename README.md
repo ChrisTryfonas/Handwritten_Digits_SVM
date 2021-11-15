@@ -11,4 +11,4 @@ Each image-sample has 64 pixels (8x8) so is described by a 64-bit ndarray.
 6) target_names contains the labels of output (0,1,2,3,4,5,6,7,8,9).
 7) target has the output of 1979 hanwritten and size (1797, ).
 
-![](images/demo_responsive.png)
+![](images/001.png)
