@@ -2,7 +2,7 @@
 This is a project where I use the Machine Learnin techiques to recognize handwritten digits. In particular the algorithm "Support Vector Machine" is used as I have to classify my samples to 10 categories (10 dimensions). 
 The dataset consists of 1797 images-samples (10 classes x ~180 samples/class) and is split by 20% - 80% for test and train equivalently.
 Each image has 64 pixels (8x8) so is described by a 64-bit ndarray
-# The "digits" dataset comes from sklearn.datasets and has the following attributes:
+## The "digits" dataset comes from sklearn.datasets and has the following attributes:
 1) DESCR with the description of the dataset.
 2) data is a dataframe of 1797x64 with all the pixel values for all images.
 3) feature_names has the pixel labels for each 64-bit image i.e [pixel00,pixel01,pixel02....]
