@@ -13,8 +13,9 @@ Each image-sample has 64 pixels (8x8) so is described by a 64-bit ndarray.
 
 
 Below is an example of a 8x8 image with a handwritten digit in grayscale:
+
 ![](images/img001.PNG)
 
-The accuracy of the algorithm was around 99.4 with the deafult default Regularity C=1 and gamma = scale. If Regularity is >5 the score drops slightly to 99.72% 
+The accuracy of the algorithm was around 99.4 with default Regularity C=1 and gamma = scale. If Regularity is above 5 the score drops slightly to 99.72%, 
 while if gamma is set to auto it drops to 54%.
-![](images/img002.PNG)
+![](images/img002.PNG).
