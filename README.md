@@ -1,5 +1,5 @@
 # Handwritten Digits - SVM
-This is a project where I use Machine Learning techiques to recognize handwritten digits. In particular the algorithm "Support Vector Machine" is used, as I have to classify my samples to 10 categories, which means that is a 10-dimension classification problem. 
+This is a project where I use Machine Learning techiques to recognize handwritten digits. Specifically, is used the algorithm "Support Vector Machine", as I have to classify my samples to 10 categories, which means that I deal with a 10-dimension classification problem, so I try to find a 10-D plane to split the samples. 
 The dataset consists of 1797 images-samples (10 classes x ~180 samples/class) and is split by 20% - 80% for test and train equivalently.
 Each image-sample has 64 pixels (8x8) so is described by a 64-bit ndarray.
 ### The dataset comes from sklearn.datasets and has the following attributes:
