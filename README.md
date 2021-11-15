@@ -11,4 +11,6 @@ Each image-sample has 64 pixels (8x8) so is described by a 64-bit ndarray.
 6) target_names contains the labels of output (0,1,2,3,4,5,6,7,8,9).
 7) target has the output of 1979 hanwritten and size (1797, ).
 
+
+Below is an example of a 8x8 image with a handwritten digit in grayscale:
 ![](images/001.PNG)
