@@ -1,5 +1,5 @@
 # Handwritten Digits - SVM
-This is a project where I use the Machine Learning techiques to recognize handwritten digits. In particular the algorithm "Support Vector Machine" is used, as I have to classify my samples to 10 categories, which means that is a 10-dimension classification problem. 
+This is a project where I use Machine Learning techiques to recognize handwritten digits. In particular the algorithm "Support Vector Machine" is used, as I have to classify my samples to 10 categories, which means that is a 10-dimension classification problem. 
 The dataset consists of 1797 images-samples (10 classes x ~180 samples/class) and is split by 20% - 80% for test and train equivalently.
 Each image-sample has 64 pixels (8x8) so is described by a 64-bit ndarray.
 ### The dataset comes from sklearn.datasets and has the following attributes:
@@ -16,6 +16,7 @@ Below is an example of a 8x8 image with a handwritten digit in grayscale:
 
 ![](images/img001.PNG)
 
-The accuracy of the algorithm was around 99.4 with default Regularity C=1 and gamma = scale. If Regularity is above 5 the score drops slightly to 99.72%, 
+The accuracy of the algorithm was around 99.4% with default Regularity C=1 and gamma = scale. If Regularity is above 5 the score drops slightly to 99.72%, 
 while if gamma is set to auto it drops to 54%.
-![](images/img002.PNG).
+
+![](images/img002.PNG)
