@@ -13,5 +13,5 @@ Each image-sample has 64 pixels (8x8) so is described by a 64-bit ndarray.
 
 
 Below is an example of a 8x8 image with a handwritten digit in grayscale:
-![](images/001.PNG)
-v
+![](images/img001.PNG)
+
