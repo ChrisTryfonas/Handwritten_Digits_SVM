@@ -16,7 +16,6 @@ Below is an example of a 8x8 image with a handwritten digit in grayscale:
 
 ![](images/img001.PNG)
 
-The accuracy of the algorithm was around 99.4% with default Regularity C=1 and gamma = scale. If Regularity is above 5 the score drops slightly to 99.72%, 
-while if gamma is set to auto it drops to 54%.
+The accuracy of the algorithm was around 99.7% with Regularity set to 5 and all other parameters set to default as described in documentation. If Regularity is set also to default I noticed that the score drops slightly to 99.4%. Also worths to mention that if gamma is set to auto then accuracy drops to 54%.
 
 ![](images/img002.PNG)
